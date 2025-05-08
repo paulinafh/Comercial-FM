@@ -20,6 +20,18 @@
 	color: #000;
 	text-decoration: none;
 }
+	
+.imagen-brillante img {
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 2, 0.2);
+object-fit: cover;
+transition: all 0.5s ease;
+}
+
+.imagen-brillante:hover img {
+filter: brightness(1.3) drop-shadow(0 0 5px rgba(66, 255, 0, 0.8));
+transform: scale(1.02);
+}
 
 </style>
 </head>
@@ -27,31 +39,47 @@
 <body>
 <table width="100%" border="0">
   <tr>
-    <td><div align="center"><img src="file:///C|/Users/Usuario/Documents/FMlogo.jpg" width="225" height="225" /></div></td>
-    <td><div align="center" class="titulos">PRODUCTOS</div>
+    <td><div align="center"><a href="index.html"><img src="FMlogo.jpg" width="225" height="225" /></a></div></td>
+    <td><div align="center" class="titulos"><a href="productos.html" class="titulos">PRODUCTOS</a></div>
     <span class="pau2"></span></td>
-    <td><div align="center" class="titulos">UBICACION</div></td>
-    <td><div align="center" class="titulos">CONTACTO</div></td>
-    <td><div align="center"><img src="file:///C|/Users/Usuario/Documents/iglogo.jpg" height="60" /><img src="file:///C|/Users/Usuario/Documents/face.png"  height="60" /></div></td>
+    <td><div align="center" class="titulos"><a href="Ubicacion.html" class="titulos">UBICACION</a></div></td>
+    <td><div align="center" class="titulos"><a href="contacto.html" class="titulos">CONTACTO</a></div></td>
+    <td><div align="center"><a href="https://www.instagram.com/comercialfmcab/?locale=en_US%2Cen_GB%2Cen_US%2Cen_GB"><img src="iglogo.jpg" width="80" height="81" /></a><a href="https://www.facebook.com/p/Comercial-Fm-100057254778375/"><img src="face.png" width="80"  height="81" /></a></div></td>
   </tr>
 </table>
 <div align="center"></div>
 <div class="pau2"></div>
-<table width="100%" border="0">
-  <tr>
-    <td><img src="file:///C|/Users/Usuario/Documents/Cuaderno-ExcellenceT-Book-portada2.png"  height="300" /></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/41cUi630OnL._AC_SY1000_.jpg" height="250" /></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/88181.jpg" height="250"/></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/images.jpg" height="250" /></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/D_739435-CBT83147722921_032025-C.jpg" height="250"/></td>
-  </tr>
-  <tr>
-    <td><img src="file:///C|/Users/Usuario/Documents/images (1).jpg" height="250" /></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/lapicero 0.5-550x550.jpg"height="250"/></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/images (2).jpg" height="250"/></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/Junior_13_verde.png" height="250" /></td>
-    <td><img src="file:///C|/Users/Usuario/Documents/61fkHZ-EQiL._AC_UF894,1000_QL80_.jpg" height="250" /></td>
-  </tr>
-</table>
+<div align="center">
+  <table width="100%" border="0">
+    <tr>
+      <td class="imagen-brillante"><div align="center"><img src="41cUi630OnL._AC_SY1000_.jpg" width="250"  height="274" class="imagen-brillante" /></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="88181.jpg" width="250" height="252" class="imagen-brillante" /></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="images (2).jpg" width="250" height="250" class="imagen-brillante" /></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="61fkHZ-EQiL._AC_UF894,1000_QL80_.jpg" width="250" height="274" class="imagen-brillante" /></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="lapicero 0.5-550x550.jpg" width="250" height="248"/></div></td>
+    </tr>
+    <tr>
+      <td><div align="center">Mochila Mochila</div></td>
+      <td><div align="center">Calculadoras</div></td>
+      <td><div align="center">Pinturas</div></td>
+      <td><div align="center">Carpetas</div></td>
+      <td><div align="center">Lapiceros</div></td>
+    </tr>
+    <tr>
+      <td class="imagen-brillante"><div align="center"><img src="Cuaderno-ExcellenceT-Book-portada2.png" width="250" height="331" class="imagen-brillante" /></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="images.jpg"height="225" class="imagen-brillante"/></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="D_739435-CBT83147722921_032025-C.jpg" width="250" height="252" class="imagen-brillante"/></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="images (1).jpg" width="250" height="250" class="imagen-brillante" /></div></td>
+      <td class="imagen-brillante"><div align="center"><img src="Junior_13_verde.png" width="250" height="250" /></div></td>
+    </tr>
+    <tr>
+      <td><div align="center">Cuadernos</div></td>
+      <td><div align="center">Plumas</div></td>
+      <td><div align="center">Estuches</div></td>
+      <td><div align="center">Tintas</div></td>
+      <td><div align="center">Acuarelas</div></td>
+    </tr>
+  </table>
+</div>
 </body>
 </html>
